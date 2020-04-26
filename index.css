@@ -24,10 +24,14 @@ body button{
     background-color: darkgray;
 }
 
-
+/*Strongly direct after h2*/
 h2+p{
     background-color: lawngreen;
 }
 div{
     background-color: white;
+}
+/*Not have to be the direct one, all the p's under h2 is affected*/
+h2~p{
+    background-color: yellow;
 }
