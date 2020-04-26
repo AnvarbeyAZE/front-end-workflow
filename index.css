@@ -1,0 +1,33 @@
+
+body{
+    background: black;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+ 
+}
+.module-one{
+    background-color: blue;
+}
+
+[disabled]{
+    background-color: brown;
+} 
+#first-section{
+    background-color: cyan;
+    font-family: inherit;
+}
+
+body button{
+    background-color: darkgray;
+}
+
+
+h2+p{
+    background-color: lawngreen;
+}
+div{
+    background-color: white;
+}
