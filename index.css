@@ -12,7 +12,7 @@ body{
  
 }
 #product-overview{
-background: red;
+background: url('images/freedom.jpg');
 height: 528px;
 width: 100%;
 padding: 10px ;
@@ -73,7 +73,7 @@ padding: 10px ;
 }
 .main-nav__item--cta a{
     color: white;
-    background: red;
+    background: rgb(255, 0, 128);
     padding: 8px 16px;
     border-radius: 8px;
 }
