@@ -32,18 +32,54 @@ padding: 10px ;
 }
 .main-nav__item{
     display: inline-block;
+    margin: 0 16px;
+    
 }
 .main-header > div{
     display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.main-nav a{
+    
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+
 }
 .main-nav{
     display: inline-block;
     text-align: right;
-    width: calc(100% - 50px);
+    width: calc(100% - 72px);
+    vertical-align: middle;
 }
 
 .main-nav__items{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active
+ {
+    color: white;
+    border-bottom: 5px solid white;
+}
+.main-nav__item--cta a{
+    color: white;
+    background: red;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: red;
+    background: white;
+    border: none;
 }
