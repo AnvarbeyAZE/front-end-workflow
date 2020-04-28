@@ -1,37 +1,49 @@
-
-body{
-    background: black;
-    font-family: sans-serif;
+*{
+    box-sizing: border-box;
 }
-h1{
-    color: white;
-    font-family: 'Anton', sans-serif;
+body{
+    
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+
+    
+}
+#main{
  
 }
-.module-one{
-    background-color: blue;
+#product-overview{
+background: red;
+height: 528px;
+width: 100%;
+padding: 10px ;
+}
+.section-title{
+    color: #2ddf5c;
+}
+#product-overview h1{
+    color: white;
+    font-family: 'Anton',sans-serif;
+}
+.main-header{
+    background-color: #2ddf5c;
+    width: 100%;
+    padding: 8px 16px;
+
+}
+.main-nav__item{
+    display: inline-block;
+}
+.main-header > div{
+    display: inline-block;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 50px);
 }
 
-[disabled]{
-    background-color: brown;
-} 
-#first-section{
-    background-color: cyan;
-    font-family: inherit;
-}
-
-body button{
-    background-color: darkgray;
-}
-
-/*Strongly direct after h2*/
-h2+p{
-    background-color: lawngreen;
-}
-div{
-    background-color: white;
-}
-/*Not have to be the direct one, all the p's under h2 is affected*/
-h2~p{
-    background-color: yellow;
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
